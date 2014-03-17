@@ -1,0 +1,182 @@
+/* dpk-css style */
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container,
+.grid-0 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        /*border:1px solid #6f6;*/
+        /*height: auto;*/
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-9
+{
+      display:block;
+      float: left;
+      margin-left: 10px;
+      margin-right: 10px;
+      word-wrap: break-word;
+      z-index:1;
+
+}
+
+.container .grid-4 {
+      width:800px;
+      z-index:1;
+}
+.container .grid-1 {
+      width:200px;
+      z-index:1;
+}
+.container .grid-3 {
+      width:600px;
+      z-index:1;
+}
+
+.container .grid-2 {
+      width:400px;
+      z-index:1;
+}
+
+.container .grid-9 {
+      width:1000px;
+      z-index:1;
+}
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+        clear: both;
+        display: block;
+        font-size: 0px;
+        line-height: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+}
+
+.clearfix {
+      display: block;
+}
+
+* html .clearfix {
+        height: 1%;
+}
+
+.clearfix {
+        display: block;
+}
+
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+        margin-left: 0px;
+}
+
+.omega {
+        margin-right: 0px;
+}
+
+.card-wrapper.delta {
+      margin-right: 20px;
+      margin-left: 20px;
+}
+
+#wrapper{
+    width: 1200px;
+    position: relative;
+    left:50%;
+    margin-left: -600px;
+    font-family: "Verdana";
+}
+#main_menu {
+    margin-top: -20px;
+}
+#main_menu ul li {
+    float: left;
+    list-style: none;
+    font-style: italic;
+}
+
+#main_menu ul li a:hover{
+    background-color: #009999;
+    color: rgb(255, 255, 255);
+}
+
+#main_menu ul li {
+    color: #009999;
+}
+
+#main_menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 36pt;
+    font-style: italic;
+    color: #4c58eb;
+    text-decoration: none;
+}
+#wrapper .logo a {
+    text-decoration: none;
+}
+#head_brand {
+    height: 130px;
+    display: block;
+    overflow: hidden;
+}
+.h_title, #slogan {
+    font-style: italic;
+}
+.h_title {
+    display: block;
+    /*color: #bbb;*/
+    color: #ee3e05;
+    font-size: 90px;
+    margin-top: 20px;
+    /*padding: 0;
+    height: 50px;*/
+}
+.main_orange {
+    /*color: #ee3e05;*/
+    color: #fcae30;
+}
+.alter_blue {
+    color: #009999;
+}
+#logo {
+    cursor: pointer;
+}
+#main_menu ul li.red{
+    color: #f00;
+}

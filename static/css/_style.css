@@ -1,0 +1,39 @@
+/*
+ *
+ * CSS by Nybble (admin@nybble.net)
+ *
+ */
+
+.wrapper {
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+    background-color: #fff;
+    font-family: "Verdana";
+}
+
+.grid {
+    padding: 10px;
+    float: left;
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.h_title{
+    display: block;
+    font-size: 90px;
+    font-style: italic;
+    color: #bbb;
+    margin-top: -15px;
+}
+#response{
+    position: relative;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    left: 330px;
+}
